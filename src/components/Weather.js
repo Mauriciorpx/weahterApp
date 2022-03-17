@@ -8,7 +8,7 @@ const Weather = () => {
   const [weather, setWeather] = useState({});
 
   const success = pos =>{
-    console.log(pos.coords.latitude)
+    
     const latitude = pos.coords.latitude;
     const longitude = pos.coords.longitude;
     // Para hacerlo dinamico, usamos backpics en la url
